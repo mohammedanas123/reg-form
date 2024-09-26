@@ -81,3 +81,16 @@
     color: #ffff;
     padding: 60px 50px;
 }   
+
+@media (max-width: 420px){
+    .mainContainer {
+        padding-top: 20px;
+        align-items: start;
+    }
+    .mainContainer .registration {
+        width: 90%;
+    }
+    .header {
+        display: none;
+    }
+}
