@@ -1,0 +1,83 @@
+
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainContainer{
+    height: 99vh;
+    background-color: #4071f4;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    
+}
+
+.mainContainer .registration{
+    height: 450px;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.registration h2 {
+    margin: 20px 15px;
+}
+.mainContainer .input-box{
+    text-align: center;
+}
+.mainContainer .input-box input {
+    width: 90%;
+    height: 40px;
+    padding: 20px;
+    outline: #4071f4;
+}
+
+.mainContainer .condition{
+    display: flex;
+    padding: 0  10px;
+}
+.mainContainer .condition .checkbox {
+    margin: 0 20px;
+}
+.mainContainer .condition input{
+    height: 15px;
+    width: 10px; 
+
+    
+}
+.mainContainer .input-box button{
+    height: 30px;
+    width: 240px;
+    background-color: #4071f4;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.mainContainer .input-box button a{
+  
+    color: #ffff;text-decoration: none;
+    
+}
+.footer p{
+   font-size: 12px;
+   margin: 10px 0;
+}
+.footer p a {
+    color: #4071f4;
+}
+.header{
+    width: 50%;
+    font-size: 50px;
+    color: #ffff;
+    padding: 60px 50px;
+}   
