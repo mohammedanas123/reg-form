@@ -85,7 +85,6 @@
 @media (max-width: 500px){
     .mainContainer {
         padding-top: 20px;
-        align-items: start;
     }
     .mainContainer .registration {
         width: 90%;
